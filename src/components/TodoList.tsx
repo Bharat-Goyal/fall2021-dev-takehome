@@ -1,4 +1,5 @@
 import React from 'react'
+import {MainForm} from './Form'
 /**
  * Thank you for applying to Bits of Good. You are free to add/delete/modify any 
  * parts of this project. That includes changing the types.ts, creating css files, 
@@ -26,7 +27,7 @@ export type TodoItem = {
 export default function TodoList() {
   return (
     <div>
-      <h3>Todo List!</h3>
+      <MainForm />
     </div>
   )
 }
